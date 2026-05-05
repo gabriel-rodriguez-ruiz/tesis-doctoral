@@ -96,7 +96,8 @@
 
 #show: switch-page-numbering
 
-#include "./sections/0default-template.typ" // Comment out this line when you start writing
+// #include "./sections/0default-template.typ" // Comment out this line when you start writing
+// La idea es que cada sección de la tesis esté en un archivo separado, para mantener el proyecto organizado. Puedes crear tantos archivos como quieras, y nombrarlos como quieras. Luego, simplemente los incluyes aquí, en el main.typ, para que formen parte del documento final. El orden en el que los incluyas es el orden en el que aparecerán en la tesis.
 #include "./sections/1introduction.typ"
 #include "./sections/2theory.typ"
 #include "./sections/3methods.typ"
