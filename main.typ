@@ -106,7 +106,7 @@
 
 
 #bibliography(
-  "references.bib",
+  "thesis.bib",
   title: [References],
   style: "american-physics-society",
 )
